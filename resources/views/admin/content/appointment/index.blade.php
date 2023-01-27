@@ -16,7 +16,7 @@
     <div class="container">
         <div class="panel panel-primary">
             <div class="panel-heading">
-                MY Calender
+                View all appointments
             </div>
             <div class="panel-body" >
                 {!! $calendar->calendar() !!}
