@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Admin Panel</title>
+    <title>Appointment Booking System</title>
 
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
 
@@ -41,7 +41,7 @@
 
         <!-- Sidebar - Brand -->
         <a class="sidebar-brand d-flex align-items-center justify-content-center" href="{{ route('dashboard') }}">
-            <div class="sidebar-brand-text mx-3">Admin Panel</div>
+            <div class="sidebar-brand-text mx-3">Dashboard</div>
         </a>
 
         <!-- Divider -->
