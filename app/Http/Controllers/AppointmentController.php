@@ -21,9 +21,9 @@ class AppointmentController extends Controller
         foreach( $appointments as $i){
             $appointment[] = \Calendar:: event(
                 $i->name,
-                true,
-                new \DateTime($i->start_date),
-                new \DateTime($i->end_date),
+                false,
+                new \DateTime($i->start_time),
+                new \DateTime($i->end_time),
                 $i-> id
             );
         }

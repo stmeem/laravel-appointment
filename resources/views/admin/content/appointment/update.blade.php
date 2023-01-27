@@ -31,7 +31,7 @@
                 <div class="form-group">
                     <label for="">End Time</label>
                     <input type="datetime-local" id="" aria-describedby="" name="end_time"
-                           class="form-control @error('name') is-invalid @enderror" value="{{ $appointment->end_time }}">
+                           class="form-control @error('end_time') is-invalid @enderror" value="{{ $appointment->end_time }}">
                 </div>
                 @error('end_time')
                 <div class="alert alert-danger" style="margin-top: 10px">{{ $message }}</div>
